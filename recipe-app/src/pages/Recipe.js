@@ -20,6 +20,7 @@ class Recipe extends Component {
     if(match.params.id != prevMatch.params.id){
       this.setState({recipeId: match.params.id})
     }
+    console.log("prevMatch:  ",prevProps)
   }
 
   render() {
